@@ -33,7 +33,11 @@ const { title } = Astro.props;
 			href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
 			rel="stylesheet"
 		/>
-		<script defer src="https://plausible.io/js/plausible.js"></script>
+		<script
+			defer
+			data-domain="noop.ai"
+			src="https://plausible.io/js/plausible.js"
+		></script>
 	</head>
 	<body class="font-sans text-base text-nord0 dark:text-nord6">
 		<slot />
